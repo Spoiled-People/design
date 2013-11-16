@@ -165,6 +165,8 @@ Tout du long, on peut annuler via la navigation native du terminal.
 
 ##### Ajout via une image téléchargée depuis le navigateur
 
+Permet de parcourir les dossiers de l'ordinateur pour charger une image.
+
 ##### Ajout via URL copiée-collée
 
 L'élément \<title\> de la page de destination est récupéré et placé par défaut dans le champ de titre de l'item.
