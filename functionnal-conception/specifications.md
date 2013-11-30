@@ -120,9 +120,10 @@ En cas de suppression de compte, toutes les informations du compte sont supprim�
 
 ### L'item
 
-- Données obligatoires :
-	- titre et/ou image
+- Donnée obligatoire :
+	- titre
 - Données facultatives :
+	- image
 	- description
 	- prix
 	- quantité souhaitée
@@ -143,9 +144,10 @@ Quel que soit le mode d'ajout, la totalités des informations sont accessibles e
 Quel que soit le mode d'ajout, l'enregistrement de l'item est soumis à un bouton de validation que l'utilisateur doit activer.
 
 Les données attendues sont :
-- Données obligatoires :
-	- titre et/ou image
+- Donnée obligatoire :
+	- titre
 - Données facultatives :
+	- image
 	- description
 	- prix et devise
 	- quantité
@@ -182,17 +184,17 @@ Par défaut, c'est la première image trouvée qui est retenue. L'utilisateur pe
 
 ##### Ajout manuel
 
-Un item peut-être rajouter via une édition manuelle depuis l'application ou depuis le site web.
+Un item peut-être rajouté via une édition manuelle depuis l'application ou depuis le site web.
 
 #### Formulaire d'un item (ajout ou édition)
 
 ##### Titre 
 
-Le titre est obligatoire si l'image n'est pas renseignée.
+Le titre est obligatoire.
 
 ##### Image
 
-L'image est obligatoire si le titre n'est pas renseigné.
+L'image est facultative.
 
 ##### Description
 
