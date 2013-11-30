@@ -169,11 +169,15 @@ Permet de parcourir les dossiers de l'ordinateur pour charger une image.
 
 ##### Ajout via URL copiée-collée
 
-L'élément \<title\> de la page de destination est récupéré et placé par défaut dans le champ de titre de l'item.
+Si des [microdonnées](http://schema.org/) sont présentes dans la page de destination, on s'en sert pour récupérer les informations de l'article :
+- Titre : à préciser.
+- Description : à préciser.
 
-L'élément \<meta description\> de la page de destination est récupéré et placé par défaut dans le champ de description de l'item.
+Si il n'y a pas de microdonnées utiles, on s'appuie sur les balises Meta :
+- L'élément \<title\> de la page de destination est récupéré et placé par défaut dans le champ de titre de l'item.
+- L'élément \<meta description\> de la page de destination est récupéré et placé par défaut dans le champ de description de l'item.
 
-L'ensemble des images sont récupérées et proposées à l'utilisateur pour le champ image de l'item.
+Dans tous les cas, l'ensemble des images de la page de destination sont récupérées et proposées à l'utilisateur pour le champ image de l'item.
 Par défaut, c'est la première image trouvée qui est retenue. L'utilisateur peut choisir de ne retenir aucune image.
 
 ##### Ajout via le scan d'un code-barre
