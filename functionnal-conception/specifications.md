@@ -67,6 +67,8 @@ Un compte =
 	- pseudonyme
 	- prénom
 	- nom
+	- date de naissance
+	- adresse
 	- paramètres
 		- visibilité par défaut
 		- devise par défaut
@@ -74,13 +76,23 @@ Un compte =
 		- notification par défaut
 		- notifications à propos de Spoiled People
 
-IDENTIFIANT
+###### Identifiant
 
 Par souci d'économie de données demandées, l'identifiant est l'e-mail du compte. Il est indispensable en cas d'oubli de mot de passe.
 
-MOT DE PASSE
+###### Mot de passe
 
 NB : Ne pas compliquer inutilement les règles de formatage du mot de passe.
+
+###### Date de naissance
+
+Si elle est renseignée, la date de naissance pourra être définie comme [date de l'évènement](#la-liste) d'une liste.
+
+###### Adresse
+
+Si elle est renseignée, l'adresse pourra être définie comme [l'adresse liée](#la-liste) d'une liste.
+
+###### Paramètres
 
 VISIBILITÉ PAR DÉFAUT
 
