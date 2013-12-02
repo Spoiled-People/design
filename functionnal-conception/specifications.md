@@ -48,7 +48,13 @@ La création du compte nécessite :
 - un identifiant (e-mail)
 - un mot de passe
 
-La création de compte passe par un mail de confirmation.
+Dès le formulaire d'inscription validé :
+- l'utilisateur est connecté à son compte
+- on lui envoie un e-mail avec un lien de confirmation pour qu'il valide la création de son compte
+
+Si l'utilisateur n'a pas validé la création de son compte sous x jours :
+- son compte est bloqué
+- un e-mail est envoyé pour le prévenir que son compte a été bloqué et qu'il doit confirmer son inscription pour le réactiver
 
 #### Gestion du compte
 
