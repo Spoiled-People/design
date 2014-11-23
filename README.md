@@ -2,4 +2,4 @@
 
 Charte, graphisme, spécificiations, etc.
 
-Pour en savoir plus sur Spoiled People : [about](https://github.com/Spoiled-People/about)
+Pour en savoir plus sur Spoiled People : [http://spoiled-people.github.io/](http://spoiled-people.github.io/)
